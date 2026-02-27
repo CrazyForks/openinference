@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.13](https://github.com/CrazyForks/openinference/compare/python-openinference-instrumentation-google-genai-v0.1.12...python-openinference-instrumentation-google-genai-v0.1.13) (2026-02-27)
+
+
+### Features
+
+* google genai cache create instrumentation ([#2766](https://github.com/CrazyForks/openinference/issues/2766)) ([989481a](https://github.com/CrazyForks/openinference/commit/989481accfae85ee5c489cde9be12e17dc7dba30))
+* **google-genai:** interactions api integration ([#2628](https://github.com/CrazyForks/openinference/issues/2628)) ([23a9702](https://github.com/CrazyForks/openinference/commit/23a9702bbd9fcf0bd9a3013bcac59ecf375d2c8f))
+
+
+### Bug Fixes
+
+* fix config_json serialization for GoogleGenAIInstrumentor ([#1855](https://github.com/CrazyForks/openinference/issues/1855)) ([1702a1d](https://github.com/CrazyForks/openinference/commit/1702a1d755d8ebc64fb3fa17e36579a6935d9dbd))
+* Google GenAI usage metadata mapping for cached tokens ([#2779](https://github.com/CrazyForks/openinference/issues/2779)) ([01ed0c1](https://github.com/CrazyForks/openinference/commit/01ed0c10d1e81730a685c623b91eb7cd02c2079e))
+* **google-genai:** fix wrong tool attribute when setting llm input_message attribute ([#2260](https://github.com/CrazyForks/openinference/issues/2260)) ([8ee0569](https://github.com/CrazyForks/openinference/commit/8ee0569ae3e7bbf8c66f8bca2a34727d31cd007d))
+* **google-genai:** including tool_use_prompt_token_count into prompt token count ([#2597](https://github.com/CrazyForks/openinference/issues/2597)) ([b067ecb](https://github.com/CrazyForks/openinference/commit/b067ecb133dd7dcf7eccf15d20450817a71953dd))
+* **google-genai:** Set input message attributes for function call and function response parts ([#2252](https://github.com/CrazyForks/openinference/issues/2252)) ([be4b9c1](https://github.com/CrazyForks/openinference/commit/be4b9c150f6a33a1ee394d19f7c8e7c7886fe307))
+* resolve google-genai CI test failures and hanging ([#2794](https://github.com/CrazyForks/openinference/issues/2794)) ([2e36c27](https://github.com/CrazyForks/openinference/commit/2e36c27496555b10bb0e944f720c8a440b5a2042))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/CrazyForks/openinference/issues/2294)) ([48b7a51](https://github.com/CrazyForks/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.12](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-google-genai-v0.1.11...python-openinference-instrumentation-google-genai-v0.1.12) (2026-02-26)
 
 
